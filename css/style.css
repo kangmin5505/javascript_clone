@@ -1,0 +1,43 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+  margin: 0px;
+}
+
+.hidden {
+  display: none;
+}
+
+#clock {
+  font-size: 75px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+#greeting {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.quotes {
+  font-size: 18px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+.quotes div:last-child {
+  opacity: 0.5;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+img {
+  width: 640px;
+  height: 360px;
+}
