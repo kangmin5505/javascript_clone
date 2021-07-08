@@ -29,7 +29,7 @@ const quotes = [
     author: "Mae West",
   },
   {
-    quote: "Never go on trips with anyone you do ntot love.",
+    quote: "Never go on trips with anyone you do not love.",
     author: "Hemmingway",
   },
   {
@@ -43,6 +43,7 @@ const quotes = [
 ];
 const quote = document.querySelector(".quotes div:first-child");
 const author = document.querySelector(".quotes div:last-child");
+// random하게 array index에 접근할 수 있게 하는 code
 const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
 quote.innerText = todaysQuote["quote"];

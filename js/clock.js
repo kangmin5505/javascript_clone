@@ -1,5 +1,6 @@
 const clock = document.querySelector("#clock");
 
+// 시계를 생성하는 function
 function setClock() {
   const date = new Date();
   // padStart(length, 문자) vs padEnd(length, 문자)
