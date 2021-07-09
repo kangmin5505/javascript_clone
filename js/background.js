@@ -9,6 +9,7 @@ const chosenImage = images[Math.floor(Math.random() * images.length)];
 const bgImage = document.createElement("img");
 
 bgImage.src = chosenImage;
+bgImage.id = "background";
 
 // element에 child element를 넣는 code
 document.body.appendChild(bgImage);

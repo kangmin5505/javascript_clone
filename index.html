@@ -8,6 +8,15 @@
     <title>Momentum App</title>
   </head>
   <body>
+    <div id="weather_city">
+      <div id="weather">
+        <img />
+        <span></span>
+      </div>
+      <div id="city">
+        <span></span>
+      </div>
+    </div>
     <h1 id="clock">00:00:00</h1>
     <form class="hidden" id="login-form">
       <input
@@ -24,13 +33,16 @@
       <div class="quote"></div>
     </section>
     <form id="todo">
-      <input type="text" />
+      <h3>What is your main focus for today?</h3>
+      <input type="text" id="todo_input" />
     </form>
     <ul></ul>
+    <script src="js/config.js"></script>
     <script src="js/greeting.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
   </body>
 </html>
