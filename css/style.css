@@ -21,6 +21,28 @@ body {
   margin-bottom: 30px;
 }
 
+#login-form {
+  width: 30%;
+  height: 3%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#login-form input {
+  height: 100%;
+  border-radius: 15px;
+  margin-right: 3px;
+}
+
+#login-form input:focus {
+  outline: none;
+}
+
+#login-form input:first-child {
+  width: 50%;
+  text-align: center;
+}
+
 #greeting {
   font-size: 60px;
   font-weight: 1000;
