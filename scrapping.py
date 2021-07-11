@@ -7,7 +7,7 @@ from urllib.request import urlopen
 import config
 
 
-# input your Unsplash API_KEY
+# input your pixabay API_KEY
 API_KEY = config.API_KEY
 
 image = Image(API_KEY)
