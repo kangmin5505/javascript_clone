@@ -1,4 +1,4 @@
-# javascript clone(2021.07) - 2주 과정
+# javascript clone (2021.07) - 2주 과정
 
 강의 : <a href="https://nomadcoders.co/javascript-for-beginners">Nomadcoders</a>
 <p>Momentum 클론 코딩<p/>
